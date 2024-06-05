@@ -1,0 +1,33 @@
+{
+  "name": "zaap-store",
+  "version": "1.0.0",
+  "description": "static api json (proviate zaap app data)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --config ./config/jest.config.js",
+    "build": "tsc  --declaration -p ./",
+    "run": "tsx ./src/index.ts",
+    "dev": "tsx watch ./src/index.ts | pino-pretty",
+    "doc": "typedoc --options ./config/typedoc.json",
+    "clean": "rimraf ./dist ./build ./docs"
+  },
+  "author": "tmslpm",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.1",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "pino-pretty": "^11.1.0",
+    "rimraf": "^5.0.7",
+    "ts-jest": "^29.1.4",
+    "tsx": "^4.11.2",
+    "typedoc": "^0.25.13",
+    "typedoc-plugin-coverage": "^3.1.1",
+    "typedoc-umlclass": "^0.9.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.12.0"
+  },
+  "dependencies": {
+    "pino": "^9.1.0"
+  }
+}

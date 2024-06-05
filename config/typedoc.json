@@ -1,0 +1,122 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Doc Api: Zaap Store",
+  "includes": "docs",
+  "entryPoints": ["../src"],
+  "tsconfig": "../tsconfig.json",
+  "readme": "../readme.md",
+  "plugin": ["typedoc-plugin-coverage", "typedoc-umlclass"],
+  "customCss": "typedoc.css",
+  "navigationLinks": {
+    "⚡ Back to Github": "#"
+  },
+  "visibilityFilters": {
+    "protected": true,
+    "private": true,
+    "inherited": true,
+    "external": true,
+    "@alpha": true,
+    "@beta": true
+  },
+  "entryPointStrategy": "expand",
+  "includeVersion": true,
+  "groupOrder": [
+    "References",
+    "Modules",
+    "Namespaces",
+    "Enumerations",
+    "Enumeration Members",
+    "Classes",
+    "Interfaces",
+    "Type Aliases",
+    "Constructors",
+    "Properties",
+    "Variables",
+    "Functions",
+    "Methods",
+    "Accessors"
+  ],
+  "umlClassDiagram": {
+    "style": {
+      "box": {
+        "backgroundColor": "ffffff30",
+        "border": {
+          "width": 1,
+          "color": "33333390",
+          "radius": 15
+        }
+      },
+      "arrow": {
+        "width": 1,
+        "color": "FFC107"
+      },
+      "interface": {
+        "name": {
+          "font": {
+            "size": 19,
+            "bold": true,
+            "italic": true
+          },
+          "color": "5ed875",
+          "backgroundColor": "5ed875"
+        }
+      },
+      "class": {
+        "name": {
+          "font": {
+            "size": 19,
+            "bold": true,
+            "italic": false
+          },
+          "color": "77a8d8",
+          "backgroundColor": "77a8d8"
+        }
+      },
+      "property": {
+        "name": {
+          "font": {
+            "size": 17
+          },
+          "color": "77a8d8"
+        },
+        "type": {
+          "font": {
+            "size": 17
+          },
+          "color": "d7587e"
+        }
+      },
+      "method": {
+        "name": {
+          "font": {
+            "size": 17,
+            "underline": false
+          },
+          "color": "8b6fd8"
+        },
+        "returnType": {
+          "font": {
+            "size": 17,
+            "italic": false
+          },
+          "color": "d7587e"
+        },
+        "parameter": {
+          "name": {
+            "font": {
+              "size": 17,
+              "underline": false
+            },
+            "color": "55c6ee"
+          },
+          "type": {
+            "font": {
+              "underline": false
+            },
+            "color": "d7587e"
+          }
+        }
+      }
+    }
+  }
+}
