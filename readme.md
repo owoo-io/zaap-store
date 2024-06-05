@@ -1,3 +1,3 @@
-# Static Api: Zaap - Store
+# Owoo Api: Zaap-Store
 
 soon...
